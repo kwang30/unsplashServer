@@ -1,0 +1,27 @@
+{
+  "name": "unsplashserver",
+  "version": "1.0.0",
+  "description": "Server to get Unsplash photos for Store Design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwang30/unsplashServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwang30/unsplashServer/issues"
+  },
+  "homepage": "https://github.com/kwang30/unsplashServer#readme",
+  "dependencies": {
+    "body-parser": "latest",
+    "cors": "^2.8.5",
+    "custom-env": "^1.0.2",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "unsplash-js": "^6.0.0"
+  }
+}
